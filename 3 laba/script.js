@@ -116,7 +116,7 @@ aper.forEach(function (info, i, arr){
 
 	}
 };
-//obj1.outCountries();
+
 
 var data = parseInt(prompt("Введите data(от -10 до 10): "));
 
@@ -139,6 +139,6 @@ function Change(){
   }
 }
  var obj2 = new Change();
-  
+  obj1.outCountries();
 obj2.changeCountries(data);
  obj1.outCountries.call(obj2);
